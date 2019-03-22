@@ -1,0 +1,10 @@
+{% if issue_list %}
+    <ul>
+    {% for result in issue_list %}
+        <li><a href="/search/{{ Issue.ID }}/">{{result.actor }} on {{ result.issue }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+
