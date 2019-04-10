@@ -1,10 +1,53 @@
-{% if issue_list %}
-    <ul>
-    {% for result in issue_list %}
-        <li><a href="/search/{{ Issue.ID }}/">{{result.actor }} on {{ result.issue }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No polls are available.</p>
-{% endif %}
+{% load static %}
+{% static "" as baseUrl %}
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/search.css' %}">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
 
+<div class="row">
+    <div class="columnleft" method="post">
+    <div class ="sidebar"> <img src="{% static 'images/search_side_header.png' %}" alt ="search_side" /> </div>
+
+    </div>
+
+    <div class="columnright">
+        <div class="row searchrow">
+            <div class="searchtopleft"></div>
+            <div class="searchtopright">
+                <form method="post">
+                    {% csrf_token %}
+                    <input class="searchbar2" type="text" placeholder="Search..." name="newquery"<br>
+                </form>
+            </div>
+        </div>
+        <div class="row querydisplay">
+            <h1>Results for {{search_term}} </h1>
+        </div>
+
+        {% if issue_list %}
+
+            <ul>
+                {% for result in issue_list %}
+
+                        <div class="result_item">
+                            <div class="row">
+                                <img class="headshot" src="{{ baseUrl }}images/{{result.headshot}}" /> </img>
+                                <li class="litext"><p>{{result.actor }} on {{ result.issue }}</p></li>
+                            </div>
+
+                        </div>
+                {% endfor %}
+            </ul>
+
+        {% else %}
+            <p>No results found... try searching for another political issue or politician.</p>
+        {% endif %}
+
+    </div>
+
+</div>
+
+</html>

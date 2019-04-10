@@ -11,31 +11,43 @@ force_list = [
 "Universal Basic Income:Alexandria Ocasio-Cortez",
 "Free College:Barack Obama",
 "Free College:Donald Trump",
+"Single Payer Healthcare:Alexandria Ocasio-Cortez",
+"Single Payer Healthcare:Bernie Sanders"
 ]
 
 
 class results():
     def __init__(self, text):
         self.issue, self.actor = text.split(':')
+        self.headshot = "Headshot_"+self.actor+".png"
 
     def __str__(self):
         return self.actor + " on " + self.issue
 
 def index(request):
-    print(force_list)
 
-    # lines = result.objects.order_by()
-    # print(issue_list)
+    search_term = ""
     issue_list = []
-    search_term = "college"
+
+    if request.method == "POST":
+        full_str = request.body.decode("utf-8")
+        print(request.body.decode("utf-8"))
+        query = full_str.split("newquery=", 1)[1]
+        search_term = query
+    else:
+        print("NO POST")
+
 
     r_search = r"" + search_term
 
-    for i in range(0, len(force_list)):
-        if re.search(r_search, force_list[i].lower()):
-            issue_list.append(results(force_list[i]))
+    if r_search != "":
+        for i in range(0, len(force_list)):
+            if re.search(r_search, force_list[i].lower()):
+                issue_list.append(results(force_list[i]))
 
     context = {
-        'issue_list':issue_list
+        'issue_list':issue_list,
+        'search_term':search_term
     }
+
     return render(request, 'search/index.html', context)

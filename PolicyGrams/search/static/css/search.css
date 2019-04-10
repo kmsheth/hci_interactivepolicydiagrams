@@ -1,0 +1,79 @@
+h1{
+    font-family: 'proxima-nova';
+
+}
+
+.querydisplay{
+    padding-left:40px;
+}
+
+.columnleft{
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.columnright{
+    float: left;
+    width: 75%
+}
+
+.searchrow{
+    padding-top: 40px;
+}
+
+.searchtopleft{
+    float: left;
+    width: 60%;
+
+}
+
+.searchtopright{
+    float: right;
+    width: 40%;
+
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.result_item{
+    width: 80%;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #DCDCDC;
+
+}
+
+.sidebar img{
+    width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.searchbar2{
+    height: 25px;
+    width: 250px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color:black;
+}
+
+.placeholder{
+    color: grey;
+}
+
+.headshot{
+    width: 100px;
+    display:inline-block; margin-right:10px;
+}
+.litext{
+    display:inline-block;
+}
