@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="row querydisplay">
-            <h1>Results for {{search_term}} </h1>
+            <h1>ISSUE PAGE FOR {{search_term}} </h1>
         </div>
 
         {% if issue_list %}
@@ -35,7 +35,7 @@
                         <div class="result_item">
                             <div class="row">
                                 <img class="headshot" src="{{ baseUrl }}images/{{result.headshot}}" /> </img>
-                                <li class="litext"><a href="issue">{{result.actor }} on {{ result.issue }}</a></li>
+                                <li class="litext"><p>{{result.actor }} on {{ result.issue }}</p></li>
                             </div>
 
                         </div>

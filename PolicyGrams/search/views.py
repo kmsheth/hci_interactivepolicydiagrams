@@ -51,3 +51,34 @@ def index(request):
     }
 
     return render(request, 'search/index.html', context)
+
+def issue(request):
+
+    print("An issue page")
+    search_term = ""
+    issue_list = []
+
+    if request.method == "POST":
+        full_str = request.body.decode("utf-8")
+        print(request.body.decode("utf-8"))
+        query = full_str.split("newquery=", 1)[1]
+        search_term = query
+    else:
+        print("NO POST")
+        full_str = request.body.decode("utf-8")
+        print(request.body.decode("utf-8"))
+
+
+    r_search = r"" + search_term
+
+    if r_search != "":
+        for i in range(0, len(force_list)):
+            if re.search(r_search, force_list[i].lower()):
+                issue_list.append(results(force_list[i]))
+
+    context = {
+        'issue_list':issue_list,
+        'search_term':search_term
+    }
+
+    return render(request, 'search/issue.html', context)
