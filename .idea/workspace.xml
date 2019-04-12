@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ab8b500-91fe-4406-9399-edf4964bf282" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_diagram 1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_diagram 2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_diagram 3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_diagram 4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_diagram 5.svg" afterPath="" />
+    <list default="true" id="2ab8b500-91fe-4406-9399-edf4964bf282" name="Default" comment="Some images inserted into issue page. Need to resize appropriately before proceeding">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/css/search.css" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/css/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html" afterPath="$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html" afterPath="$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/views.py" afterPath="$PROJECT_DIR$/PolicyGrams/search/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +32,8 @@
       <file leaf-file-name="issue.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1038">
-              <caret line="35" column="80" lean-forward="true" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+            <state relative-caret-position="345">
+              <caret line="14" column="91" lean-forward="true" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -443,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555050674335</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Some images inserted into issue page. Need to resize appropriately before proceeding">
+      <created>1555055391954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555055391954</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -475,7 +473,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added issue template placeholder and view. clicking link takes you to search/issue" />
     <MESSAGE value="Updated image files, headshots in search function are now dependent on SVG. Post works as intended for /issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated image files, headshots in search function are now dependent on SVG. Post works as intended for /issue" />
+    <MESSAGE value="Some images inserted into issue page. Need to resize appropriately before proceeding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some images inserted into issue page. Need to resize appropriately before proceeding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -742,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1038">
-          <caret line="35" column="80" lean-forward="true" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+        <state relative-caret-position="345">
+          <caret line="14" column="91" lean-forward="true" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="91" />
           <folding />
         </state>
       </provider>
