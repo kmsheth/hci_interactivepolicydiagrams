@@ -9,12 +9,36 @@
 
 <div class="row">
     <div class="columnleft" method="post">
-    <div class ="sidebar"> <img src="{% static 'images/search_side_header.png' %}" alt ="search_side" /> </div>
+    <div class ="sidebar"> <img src="{% static 'images/SVG/PolicyGrams_side header.svg' %}" alt ="search_side" /> </div>
 
     </div>
 
     <div class="columnright">
+        <div class="row searchrow">
+            <div class="searchtopleft"></div>
+            <div class="searchtopright">
+                <form action="/search/" method="post">
+                    {% csrf_token %}
+                    <input class="searchbar2" type="text" placeholder="Search..." name="newquery"<br>
+                </form>
+            </div>
+        </div>
+        <div class="row querydisplay">
+            <h1>{{policygram.name}} on {{policygram.issue}} </h1>
+        </div>
+        <div class="row">
+            <div class="column contentleft"> <p>Left content</p> </div>
+            <div class="column contentright">
+                <p>Right content</p>
+                <img class="stock1" src="{% static 'images/SVG/PolicyGrams_stock_1.svg' %}" alt ="stock_1"> </img>
+                <img class="stock2" src="{% static 'images/SVG/PolicyGrams_stock_2.svg' %}" alt ="stock_2"> </img>
+                <img class="stock3" src="{% static 'images/SVG/PolicyGrams_stock_3.svg' %}" alt ="stock_3"> </img>
 
+
+
+            </div>
+
+        </div>
     </div>
 
 </div>

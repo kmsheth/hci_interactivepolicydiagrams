@@ -25,10 +25,8 @@ class results():
         return self.actor + " on " + self.issue
 
 class policygram():
-    def __init__(self, fname, lname, issue):
-        self.fname = fname
-        self.lname = lname
-        self.name = fname + " " +lname
+    def __init__(self, name, issue):
+        self.name = name
         self.issue = issue
 
 
@@ -75,12 +73,14 @@ def issue(request):
 
     else:
         print("NO POST")
-        full_str = request.body.decode("utf-8")
-        print(request.body.decode("utf-8"))
+        name = "Barack Obama"
+        issue = "Single Payer Healthcare"
 
 
+    p = policygram(name, issue)
 
-
-    context = {}
+    context = {
+        'policygram' : p
+    }
 
     return render(request, 'search/issue.html', context)

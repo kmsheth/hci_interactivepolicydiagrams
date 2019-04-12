@@ -13,6 +13,48 @@ h1{
     margin-right: 20px;
 }
 
+.contentleft{
+    float: left;
+    width: 40%;
+    background-color: grey;
+}
+
+.contentright{
+    float: left;
+    width: 60%;
+    position: relative;
+}
+
+.stock1{
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    right: 10px;
+    width: 30%;
+    height: auto;
+}
+
+.stock2{
+    position: relative;
+    z-index: 2;
+    top: -75px;
+    right: 165px;
+    width: auto;
+    height: 25%;
+
+}
+
+.stock3{
+    position: relative;
+    z-index: 3;
+    top: -333px;
+    right: -310px;
+    width: auto;
+    height: 28%;
+
+}
+
+
 .columnright{
     float: left;
     width: 75%
