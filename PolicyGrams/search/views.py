@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import re
 from .models import Issue, actor, result
-
+from django.utils.datastructures import MultiValueDictKeyError
 # Create your views here.
 
 force_list = [
@@ -19,15 +19,26 @@ force_list = [
 class results():
     def __init__(self, text):
         self.issue, self.actor = text.split(':')
-        self.headshot = "Headshot_"+self.actor+".png"
+        self.headshot = "Headshot_"+self.actor+".svg"
 
     def __str__(self):
         return self.actor + " on " + self.issue
+
+class policygram():
+    def __init__(self, fname, lname, issue):
+        self.fname = fname
+        self.lname = lname
+        self.name = fname + " " +lname
+        self.issue = issue
+
+
 
 def index(request):
 
     search_term = ""
     issue_list = []
+
+    # TODO Replace '+' with ' '
 
     if request.method == "POST":
         full_str = request.body.decode("utf-8")
@@ -54,31 +65,22 @@ def index(request):
 
 def issue(request):
 
-    print("An issue page")
-    search_term = ""
-    issue_list = []
-
     if request.method == "POST":
         full_str = request.body.decode("utf-8")
-        print(request.body.decode("utf-8"))
-        query = full_str.split("newquery=", 1)[1]
-        search_term = query
+        full_query = full_str.split("name=", 1)[1]
+        name = full_query.split("%2C")[0]
+        issue = full_query.split("%2C")[1]
+        name = name.replace('+', ' ', 10)
+        issue = issue.replace('+', ' ', 10)
+
     else:
         print("NO POST")
         full_str = request.body.decode("utf-8")
         print(request.body.decode("utf-8"))
 
 
-    r_search = r"" + search_term
 
-    if r_search != "":
-        for i in range(0, len(force_list)):
-            if re.search(r_search, force_list[i].lower()):
-                issue_list.append(results(force_list[i]))
 
-    context = {
-        'issue_list':issue_list,
-        'search_term':search_term
-    }
+    context = {}
 
     return render(request, 'search/issue.html', context)

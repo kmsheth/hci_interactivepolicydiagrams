@@ -14,37 +14,6 @@
     </div>
 
     <div class="columnright">
-        <div class="row searchrow">
-            <div class="searchtopleft"></div>
-            <div class="searchtopright">
-                <form method="post">
-                    {% csrf_token %}
-                    <input class="searchbar2" type="text" placeholder="Search..." name="newquery"<br>
-                </form>
-            </div>
-        </div>
-        <div class="row querydisplay">
-            <h1>ISSUE PAGE FOR {{search_term}} </h1>
-        </div>
-
-        {% if issue_list %}
-
-            <ul>
-                {% for result in issue_list %}
-
-                        <div class="result_item">
-                            <div class="row">
-                                <img class="headshot" src="{{ baseUrl }}images/{{result.headshot}}" /> </img>
-                                <li class="litext"><p>{{result.actor }} on {{ result.issue }}</p></li>
-                            </div>
-
-                        </div>
-                {% endfor %}
-            </ul>
-
-        {% else %}
-            <p>No results found... try searching for another political issue or politician.</p>
-        {% endif %}
 
     </div>
 

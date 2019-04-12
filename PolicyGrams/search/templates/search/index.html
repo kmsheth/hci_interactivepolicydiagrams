@@ -34,8 +34,12 @@
 
                         <div class="result_item">
                             <div class="row">
-                                <img class="headshot" src="{{ baseUrl }}images/{{result.headshot}}" /> </img>
-                                <li class="litext"><a href="issue">{{result.actor }} on {{ result.issue }}</a></li>
+                                <img class="headshot" src="{{ baseUrl }}images/SVG/{{result.headshot}}" /> </img>
+                                <li class="litext">
+                                    <form action="issue/" method="post">{% csrf_token %}
+                                    <button type="submit" class="btn-link" name="name" value="{{ result.actor }},{{ result.issue }}" >{{result.actor }} on {{ result.issue }}</button>
+                                    </form>
+                                </li>
                             </div>
 
                         </div>

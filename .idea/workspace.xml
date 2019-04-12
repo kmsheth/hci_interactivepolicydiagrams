@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ab8b500-91fe-4406-9399-edf4964bf282" name="Default" comment="" />
+    <list default="true" id="2ab8b500-91fe-4406-9399-edf4964bf282" name="Default" comment="Added issue template placeholder and view. clicking link takes you to search/issue">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/Headshot_Alexandria Ocasio-Cortez.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/Headshot_Barack Obama.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components-16.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components-17.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_Sanders.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_Trump.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_background.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_button left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_button right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_cnn1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_cnn2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_cnn3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_cnn4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_cnn5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_fox 1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_fox 2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_fox 3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_fox 4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_fox 5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_nbc 3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_nbc 4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_nbc 5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_nbc1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_nbc2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_search bar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_side header.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_twitter 1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_twitter 2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_twitter 3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_twitter 4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_twitter 5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_usa 1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_usa 2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_usa 3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_usa 4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_usa 5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_yt 1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_yt 2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_yt 3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_yt 4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components_yt 5.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/Headshot_Alexandria Ocasio-Cortez.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/Headshot_Barack Obama.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/Headshot_Bernie Sanders.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/Headshot_Donald Trump.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/search_side_header.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_Sanders.svg" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/Headshot_Bernie Sanders.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_Trump.svg" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/Headshot_Donald Trump.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/css/search.css" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/css/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html" afterPath="$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html" afterPath="$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/views.py" afterPath="$PROJECT_DIR$/PolicyGrams/search/views.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,22 +70,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PolicyGrams/search/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-              <folding />
+            <state relative-caret-position="1056">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,18 +85,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="693">
+              <caret line="36" column="83" lean-forward="false" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Text_Info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/Text_Info.py">
+      <file leaf-file-name="issue.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="594">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,22 +108,37 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>csr</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PolicyGrams/search/testing.py" />
         <option value="$PROJECT_DIR$/PolicyGrams/search/models.py" />
+        <option value="$PROJECT_DIR$/PolicyGrams/PolicyGrams/urls.py" />
+        <option value="$PROJECT_DIR$/PolicyGrams/search/urls.py" />
+        <option value="$PROJECT_DIR$/PolicyGrams/search/static/css/search.css" />
+        <option value="$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html" />
+        <option value="$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html" />
         <option value="$PROJECT_DIR$/PolicyGrams/search/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="width" value="1559" />
-    <option name="height" value="1931" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="3026" />
+    <option name="height" value="1946" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -97,8 +159,22 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PolicyGrams" />
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PolicyGrams" />
@@ -107,25 +183,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PolicyGrams" />
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PolicyGrams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolicyGrams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolicyGrams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolicyGrams" />
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -139,11 +201,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PolicyGrams" />
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PolicyGrams" />
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -158,14 +220,74 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PolicyGrams" />
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="PolicyGrams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SVG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolicyGrams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hci_interactivepolicydiagrams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -179,15 +301,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jesse\Desktop\hci_interactivepolicydiagrams\PolicyGrams\search\static\images\SVG" />
       <recent name="C:\Users\jesse\Desktop\PolicyGrams\PolicyGrams\search" />
     </key>
   </component>
@@ -363,16 +487,24 @@
       <option name="presentableId" value="Default" />
       <updated>1552886951944</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added issue template placeholder and view. clicking link takes you to search/issue">
+      <created>1555046707537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555046707537</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1559" height="1931" extended-state="0" />
-    <editor active="false" />
+    <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28005373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25202978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -391,11 +523,49 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added issue template placeholder and view. clicking link takes you to search/issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added issue template placeholder and view. clicking link takes you to search/issue" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/Text_Info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PolicyGrams/search/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -545,7 +715,7 @@
     <entry file="file://$PROJECT_DIR$/PolicyGrams/search/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -553,24 +723,76 @@
     <entry file="file://$PROJECT_DIR$/PolicyGrams/search/Text_Info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/PolicyGrams/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/PolicyGrams/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/PolicyGrams/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="693">
+          <caret line="36" column="83" lean-forward="false" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PolicyGrams/search/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="1056">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
