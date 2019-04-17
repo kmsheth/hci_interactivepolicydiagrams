@@ -84,3 +84,13 @@ def issue(request):
     }
 
     return render(request, 'search/issue.html', context)
+
+
+def home(request):
+
+
+    context = {
+
+    }
+
+    return render(request, 'search/home.html', context)

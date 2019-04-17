@@ -35,7 +35,7 @@
                             <div class="row">
                                 <img class="headshot" src="{{ baseUrl }}images/SVG/{{result.headshot}}" /> </img>
                                 <li class="litext">
-                                    <form action="issue/" method="post">{% csrf_token %}
+                                    <form action="/issue/" method="post">{% csrf_token %}
                                     <button type="submit" class="btn-link" name="name" value="{{ result.actor }},{{ result.issue }}" >{{result.actor }} on {{ result.issue }}</button>
                                     </form>
                                 </li>
