@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ab8b500-91fe-4406-9399-edf4964bf282" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/css/home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_stock_1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_stock_2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_stock_3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_stock_4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams_stock_5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/templates/search/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/PolicyGrams components-16.svg" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/Home/HomeScreenBackground.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/images/SVG/Issue/Mock_Background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/static/css/issue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PolicyGrams/search/templates/search/issue_mock.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/PolicyGrams/urls.py" afterPath="$PROJECT_DIR$/PolicyGrams/PolicyGrams/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html" afterPath="$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/urls.py" afterPath="$PROJECT_DIR$/PolicyGrams/search/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolicyGrams/search/views.py" afterPath="$PROJECT_DIR$/PolicyGrams/search/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,23 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/views.py">
+      <file leaf-file-name="issue_mock.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue_mock.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1084">
-              <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="issue.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="53" />
+            <state relative-caret-position="297">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,38 +35,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="830">
-              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/home.html">
+      <file leaf-file-name="search.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/search.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="2582">
+              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PolicyGrams/PolicyGrams/urls.py">
+      <file leaf-file-name="issue.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/issue.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PolicyGrams/search/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="66">
+              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -94,8 +65,8 @@
       <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="363">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -114,6 +85,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>csr</find>
+      <find>sidebar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,21 +97,24 @@
         <option value="$PROJECT_DIR$/PolicyGrams/search/testing.py" />
         <option value="$PROJECT_DIR$/PolicyGrams/search/models.py" />
         <option value="$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html" />
-        <option value="$PROJECT_DIR$/PolicyGrams/search/static/css/search.css" />
         <option value="$PROJECT_DIR$/PolicyGrams/PolicyGrams/urls.py" />
         <option value="$PROJECT_DIR$/PolicyGrams/search/urls.py" />
-        <option value="$PROJECT_DIR$/PolicyGrams/search/views.py" />
         <option value="$PROJECT_DIR$/PolicyGrams/search/templates/search/test.html" />
         <option value="$PROJECT_DIR$/PolicyGrams/search/static/css/home.css" />
         <option value="$PROJECT_DIR$/PolicyGrams/search/templates/search/home.html" />
+        <option value="$PROJECT_DIR$/PolicyGrams/search/views.py" />
+        <option value="$PROJECT_DIR$/PolicyGrams/search/static/css/issue.css" />
+        <option value="$PROJECT_DIR$/PolicyGrams/search/templates/search/issue_mock.html" />
+        <option value="$PROJECT_DIR$/PolicyGrams/search/static/css/search.css" />
         <option value="$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="width" value="1522" />
-    <option name="height" value="1931" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="3026" />
+    <option name="height" value="1946" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -157,6 +132,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,7 +275,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,6 +283,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jesse\Desktop\hci_interactivepolicydiagrams\PolicyGrams\search\static\images\SVG\Issue" />
       <recent name="C:\Users\jesse\Desktop\hci_interactivepolicydiagrams\PolicyGrams\search\static\images\SVG\Home" />
       <recent name="C:\Users\jesse\Desktop\hci_interactivepolicydiagrams\PolicyGrams\search\static\images\SVG" />
       <recent name="C:\Users\jesse\Desktop\PolicyGrams\PolicyGrams\search" />
@@ -520,14 +496,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555461934905</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Home page functionality added, URLs updated. /search/issue is now /issue/">
+      <created>1555462003157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555462003157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1522" height="1931" extended-state="0" />
+    <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08471075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25405955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -553,7 +536,8 @@
     <MESSAGE value="Added issue template placeholder and view. clicking link takes you to search/issue" />
     <MESSAGE value="Updated image files, headshots in search function are now dependent on SVG. Post works as intended for /issue" />
     <MESSAGE value="Some images inserted into issue page. Need to resize appropriately before proceeding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some images inserted into issue page. Need to resize appropriately before proceeding" />
+    <MESSAGE value="Home page functionality added, URLs updated. /search/issue is now /issue/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home page functionality added, URLs updated. /search/issue is now /issue/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -562,6 +546,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue_mock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/issue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PolicyGrams/search/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2838">
@@ -576,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,53 +815,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/test.html">
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/test.html" />
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="363">
+          <caret line="11" column="90" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PolicyGrams/search/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1084">
-          <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+          <caret line="85" column="45" lean-forward="false" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,18 +848,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html">
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        <state relative-caret-position="198">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/urls.py">
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="363">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/issue_mock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/templates/search/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/issue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PolicyGrams/search/static/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2582">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding />
         </state>
       </provider>
