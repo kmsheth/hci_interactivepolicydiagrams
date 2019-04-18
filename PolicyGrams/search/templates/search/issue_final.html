@@ -5,9 +5,103 @@
 <link rel="stylesheet" href="{% static 'css/issue.css' %}">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<!--<script stc="{% static '/scripts/issue.js' %}"> </script>-->
+<script>
+    var x = document.getElementById("tweet");
+
+    function hideTwitter(){
+        var x = document.getElementById("tweet");
+        x.style.display = "none";
+        var y = document.getElementById("tweet2");
+        y.style.display = "none";
+        var z = document.getElementById("ytvideo");
+        z.style.display = "none";
+    }
+
+    function changeTextCnn(){
+        hideTwitter();
+        var b1 = document.getElementById('text');
+        b1.innerHTML = "Washington (CNN)Progressive Democrat Alexandria Ocasio-Cortez on Sunday defended what could accrue to a $40 trillion price tag for progressive policy programs, including Medicare for all, over the next 10 years, citing the success in some European countries that have similarly developed health care models. CNN State of the Union anchor Jake Tapper asked      where that estimated $40 trillion -- which would include the costs for Medicare for all," +
+        "jobs guarantees, student loan forgiveness, free college programs, paid family leave, and Social " +
+        "Security expansion -- would come from. Medicare for all would be the costliest initiative, coming " +
+        "in at about $32 trillion, according to the Mercatus Center, a free market-oriented think tank at "+
+        "George Mason University, as well as an earlier study by the Urban Institute's Health Policy Center." +
+        "Ocasio-Cortez, who is running for a congressional seat in New York, referred to the publicly funded "+
+        "health care systems in Western Europe and Canada, calling such programs \"generational investments\" "+
+        "toward the future of a country. \"Medicare for all would save the American people a very large amount" +
+        "of money,\" she said. \"What we see as well is that these systems are not just pie in the sky. Many" +
+        "of them are accomplished by every modern, civilized democracy in the Western world,\" she said." +
+        "\"The United Kingdom has a form of single-payer health care -- Canada, France, Germany. What we need" +
+        "to realize that these investments are better and they are good for our future.\" But asked again" +
+        "where that $40 trillion would come from, aside from her proposed increase in taxes on the wealthy" +
+        "and corporate taxes, which she has said would raise $2 trillion over the next 10 years, Ocasio-Cortez said the taxpayer-funded programs would free people up to increase economic activity in other areas, adding that the Medicare for all program is part of \"a broader agenda.\" " +
+        "\"We do know and acknowledge that there are political realities,\" she added. \"They don't always" +
+        "happen with the wave of a wand, but we can work to make these things happen.\" She added that" +
+        "\"when you look at the economic activity that it spurs, for example, if you look at my generation," +
+        "millennials, the amount of economic activity that we do not engage, the fact that we delay purchasing" +
+        "homes, that we don't participate in the economy and purchasing cars, et cetera, as fully as" +
+        "possible, is a cost.";
+    };
+
+
+    function changeNBC(){
+        hideTwitter();
+        var b1 = document.getElementById('text');
+
+        b1.innerHTML = "Democratic Rep. Alexandria Ocasio-Cortez is firing back at her Republican colleagues after one of them rescinded an invitation to visit a coal mine in Kentucky." +
+        "\“GOP’s getting scared that up close, their constituents will realize I’m fighting harder for their healthcare than their own Reps,\” she goaded them on Twitter." +
+        "Ocasio-Cortez's taunt comes after GOP Rep. James Comer offered an alternative reason why his fellow Kentucky Republican, Rep. Andy Barr, might want to rescind his coal mine invite — and it" +
+        "isn't because of Barr's stated rationale that she had gotten into a Twitter spat with another GOP member." +
+        "Lawmakers in his party are \"making a mistake picking on\" the New York freshman over issues such as nonrenewable "+
+        "energy because of her smarts, policy preparation and massive millennial following, Comer said Monday on the "+
+        "Lexington NBC affiliate's sports and news program \“Hey Kentucky!\”";
+
+
+
+    };
+
+
+    function changeTextTwitter(){
+        hideTwitter();
+        var x = document.getElementById("tweet");
+        if (x.style.display === "none"){
+            x.style.display = "block";
+        }else{
+            x.style.display = "none";
+        }
+        var b1 = document.getElementById('text');
+        b1.innerHTML = "";
+    };
+
+    function changeTextTwitter2(){
+        hideTwitter();
+        var x = document.getElementById("tweet2");
+        if (x.style.display === "none"){
+            x.style.display = "block";
+        }else{
+            x.style.display = "none";
+        }
+        var b1 = document.getElementById('text');
+        b1.innerHTML = "";
+    };
+
+    function changeYT(){
+        hideTwitter();
+        var x = document.getElementById("ytvideo");
+                if (x.style.display === "none"){
+            x.style.display = "block";
+        }else{
+            x.style.display = "none";
+        }
+        var b1 = document.getElementById('text');
+        b1.innerHTML = "";
+    };
+
+</script>
+
 </head>
 
-<body>
+<body onload="hideTwitter();">
 
     <div id="container">
 
@@ -23,14 +117,30 @@
                 </div>
             </div>
             <div class="row contentrow">
-                <div class="textdisplay"></div>
+                <div class="textdisplay">
+                    <p id="text">Nothing right now</p>
+                    <div id="tweet">
+                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Single payer healthcare is:<br><br>- more efficient<br>- more affordable<br>- less wasteful<br>- not for profit <a href="https://t.co/kuckU1HuZ8">https://t.co/kuckU1HuZ8</a></p>&mdash; Alexandria Ocasio-Cortez (@AOC) <a href="https://twitter.com/AOC/status/975032513725894656?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                    </div>
+                    <div id="tweet2">
+                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">That’s okay - I’ll fight for their right to healthcare anyway. <a href="https://t.co/xvp76xoPVT">https://t.co/xvp76xoPVT</a></p>&mdash; Alexandria Ocasio-Cortez (@AOC) <a href="https://twitter.com/AOC/status/1111751344388521986?ref_src=twsrc%5Etfw">March 29, 2019</a></blockquote>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <div id="ytvideo">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LgvSTVw1Pw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+
+                </div>
                 <div class="policygram">
                     <img class="base" src="{% static 'images/SVG/Issue/diagram_base.png' %}" alt ="stock_1"> </img>
-                    <img class="icon icon1" src="{% static 'images/SVG/Issue/cnn-icon.png' %}" alt ="stock_1"> </img>
-                    <!--<img class="icon icon2" src="{% static 'images/SVG/Issue/usa-icon.png' %}" alt ="stock_1"> </img>-->
-                    <!--<img class="icon icon3" src="{% static 'images/SVG/Issue/youtube-icon.png' %}" alt ="stock_1"> </img>-->
-                    <!--<img class="icon icon4" src="{% static 'images/SVG/Issue/nbc-icon.png' %}" alt ="stock_1"> </img>-->
-                    <!--<img class="icon icon5" src="{% static 'images/SVG/Issue/twitter-icon.png' %}" alt ="stock_1"> </img>-->
+                    <img class="icon icon1" id="cnn" src="{% static 'images/SVG/Issue/cnn-icon.png' %}" onclick="changeTextCnn();"alt ="stock_1"> </img>
+                    <img class="icon icon2" src="{% static 'images/SVG/Issue/twitter-icon.png' %}" onclick = "changeTextTwitter2();"alt ="stock_1"> </img>
+                    <img class="icon icon3" src="{% static 'images/SVG/Issue/youtube-icon.png' %}" onclick = "changeYT();" alt ="stock_1"> </img>
+                    <img class="icon icon4" src="{% static 'images/SVG/Issue/nbc-icon.png' %}" onclick = "changeNBC()" alt ="stock_1"> </img>
+                    <img class="icon icon5" src="{% static 'images/SVG/Issue/twitter-icon.png' %}" onclick = "changeTextTwitter();"alt ="stock_1"> </img>
                 </div>
 
             </div>

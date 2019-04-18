@@ -73,27 +73,39 @@
 .icon1{
     z-index: 1;
     position: relative;
-    right: 130px;
+    right: 500px;
     height: 15%;
     width: auto;
 }
 
 .icon2{
     z-index: 2;
-
+    position: relative;
+    right: 500px;
+    height: 15%;
+    width: auto;
 }
 
 .icon3{
     z-index: 3;
-
+    position: relative;
+    right: 500px;
+    height: 15%;
+    width: auto;
 }
 
 .icon4{
     z-index: 4;
-
+    position: relative;
+    right: 500px;
+    height: 15%;
+    width: auto;
 }
 
 .icon5{
     z-index: 5;
-
+    position: relative;
+    right: 500px;
+    height: 15%;
+    width: auto;
 }
