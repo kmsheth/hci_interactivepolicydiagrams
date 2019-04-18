@@ -11,8 +11,30 @@
 
     <div id="container">
 
-        <div class="sidebar"></div>
-        <div class="content"></div>
+        <div class="col sidebar"></div>
+        <div class="col contentcontainer">
+            <div class="row searchrow">
+                <div class="searchtopleft"></div>
+                <div class="searchtopright">
+                    <form action="/search/" method="post">
+                        {% csrf_token %}
+                        <input class="searchbar2" type="text" placeholder="Search..." name="newquery">
+                    </form>
+                </div>
+            </div>
+            <div class="row contentrow">
+                <div class="textdisplay"></div>
+                <div class="policygram">
+                    <img class="base" src="{% static 'images/SVG/Issue/diagram_base.png' %}" alt ="stock_1"> </img>
+                    <img class="icon icon1" src="{% static 'images/SVG/Issue/cnn-icon.png' %}" alt ="stock_1"> </img>
+                    <!--<img class="icon icon2" src="{% static 'images/SVG/Issue/usa-icon.png' %}" alt ="stock_1"> </img>-->
+                    <!--<img class="icon icon3" src="{% static 'images/SVG/Issue/youtube-icon.png' %}" alt ="stock_1"> </img>-->
+                    <!--<img class="icon icon4" src="{% static 'images/SVG/Issue/nbc-icon.png' %}" alt ="stock_1"> </img>-->
+                    <!--<img class="icon icon5" src="{% static 'images/SVG/Issue/twitter-icon.png' %}" alt ="stock_1"> </img>-->
+                </div>
+
+            </div>
+        </div>
 
     </div>
 
