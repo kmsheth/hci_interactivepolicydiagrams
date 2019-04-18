@@ -1,0 +1,54 @@
+{% load static %}
+{% static "" as baseUrl %}
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/issue.css' %}">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div class="sidebar"></div>
+        <div class="content"></div>
+
+    </div>
+
+    <!--<div class="columnleft">-->
+    <!--<div class ="sidebar"> <img src="{% static 'images/SVG/PolicyGrams_side header.svg' %}" alt ="search_side" /> </div>-->
+
+    <!--</div>-->
+
+    <!--<div class="columnright">-->
+        <!--<div class="row searchrow">-->
+            <!--<div class="searchtopleft"></div>-->
+            <!--<div class="searchtopright">-->
+                <!--<form action="/search/" method="post">-->
+                    <!--{% csrf_token %}-->
+                    <!--<input class="searchbar2" type="text" placeholder="Search..." name="newquery"<br>-->
+                <!--</form>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row querydisplay">-->
+            <!--<h1>{{policygram.name}} on {{policygram.issue}} </h1>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+            <!--<div class="column contentleft"> <p>Left content</p> </div>-->
+            <!--<div class="column contentright">-->
+                <!--<p>Right content</p>-->
+                <!--&lt;!&ndash;<img class = "base" src="{% static 'images/SVG/Issue/diagram_base.png' %}" alt ="stock_1"> </img>&ndash;&gt;-->
+
+
+
+
+            <!--</div>-->
+
+        <!--</div>-->
+    <!--</div>-->
+
+</body>
+
+
+</html>

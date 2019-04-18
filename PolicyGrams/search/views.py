@@ -83,7 +83,7 @@ def issue(request):
         'policygram' : p
     }
 
-    return render(request, 'search/issue_mock.html', context)
+    return render(request, 'search/issue_final.html', context)
 
 
 def home(request):

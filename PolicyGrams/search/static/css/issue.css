@@ -1,23 +1,20 @@
-body, html {
-  height: 100%;
+#container {
+    width: 100%;
+    background-color: black;
 }
 
-.bg {
-  /* The image used */
-  background-image: url("/static/images/SVG/Issue/Mock_Background.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.content{
+    width: 950px;
+    float: right;
+    background-color: black;
 }
 
-.searchbar{
-
-    position: fixed;
-    top: 50%;
-    left: 50%
+.sidebar{
+    width: 220px;
+    height: 100%;
+    float: left;
+    padding-left: 0;
+    background-image: url('/static/images/SVG/PolicyGrams_side header.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
