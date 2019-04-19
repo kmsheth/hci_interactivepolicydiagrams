@@ -21,6 +21,11 @@
 
 }
 
+.sharecol{
+    float: left;
+    width: 50%;
+}
+
 .sharing{
     height: 5%;
     width: 5%;
@@ -53,13 +58,13 @@
 .textdisplay{
     float: left;
     width: 50%;
-    height: 100%;
+    height: 90%;
 }
 
 .policygram{
     float: left;
     width: 50%;
-    height: 100%;
+    height: 90%;
 
 }
 
