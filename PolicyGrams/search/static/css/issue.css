@@ -80,7 +80,8 @@
 .icon1{
     z-index: 1;
     position: relative;
-    right: 500px;
+    right: 350px;
+    bottom: 70px;
     height: 15%;
     width: auto;
 }
@@ -88,7 +89,8 @@
 .icon2{
     z-index: 2;
     position: relative;
-    right: 500px;
+    left: 260px;
+    bottom: 30px;
     height: 15%;
     width: auto;
 }
@@ -96,7 +98,8 @@
 .icon3{
     z-index: 3;
     position: relative;
-    right: 500px;
+    left: 330px;
+    bottom: 425px;
     height: 15%;
     width: auto;
 }
@@ -104,7 +107,8 @@
 .icon4{
     z-index: 4;
     position: relative;
-    right: 500px;
+    left: 200px;
+    bottom: 120px;
     height: 15%;
     width: auto;
 }
@@ -112,7 +116,8 @@
 .icon5{
     z-index: 5;
     position: relative;
-    right: 500px;
+    left: -300px;
+    bottom: 280px;
     height: 15%;
     width: auto;
 }

@@ -105,7 +105,7 @@
         issue = issue.split(' ').join("+");
         name=name.split(' ').join('+');
         console.log(name);
-        url = "https://twitter.com/intent/tweet?text=Check+Out+what+"+name+"+thinks+about+"+issue;
+        url = "https://twitter.com/intent/tweet?text=Check+Out+what+"+name+"+thinks+about+"+issue+"+"+window.location.href;
         console.log(url);
         console.log(window.location.href);
         window.open(url, '_blank');
@@ -125,8 +125,8 @@
             <div class="row searchrow">
 
                 <div class="col sharecol">
-                    <img class="sharing" id="twit" src="{% static 'images/SVG/Issue/twitter_share.svg' %}" alt ="stock_1">
-                    <img class="sharing" id="fb" src="{% static 'images/SVG/Issue/facebook_share.svg' %}" onclick="opentwitter();" alt ="stock_1">
+                    <img class="sharing" id="twit" src="{% static 'images/SVG/Issue/twitter_share.svg' %}" onclick="opentwitter();" alt ="stock_1">
+                    <img class="sharing" id="fb" src="{% static 'images/SVG/Issue/facebook_share.svg' %}"  alt ="stock_1">
                     <img class="sharing" id="copy" src="{% static 'images/SVG/Issue/copy_link.svg' %}" alt ="stock_1">
                 </div>
                 <div class="col sharecol">
