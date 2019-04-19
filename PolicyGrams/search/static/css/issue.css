@@ -1,7 +1,6 @@
 #container {
     width: 100%;
     height: 100%;
-    background-color: black;
     margin-right: 20px;
 }
 
@@ -22,9 +21,15 @@
 
 }
 
+.sharing{
+    height: 5%;
+    width: 5%;
+}
+
 .searchrow{
     padding-top: 40px;
     height: 10%
+    margin-bottom: 50px;
 }
 
 .searchtopleft{
@@ -43,21 +48,18 @@
     float: left;
     width: 100%;
     height: 90%;
-    background-color: red;
 }
 
 .textdisplay{
     float: left;
     width: 50%;
     height: 100%;
-    background-color: blue;
 }
 
 .policygram{
     float: left;
     width: 50%;
     height: 100%;
-    background-color: white;
 
 }
 
@@ -108,4 +110,19 @@
     right: 500px;
     height: 15%;
     width: auto;
+}
+
+#ytvideo{
+    display: none;
+
+}
+
+#tweet{
+    display: none;
+
+}
+
+#tweet2{
+    display: none;
+
 }
